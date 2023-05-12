@@ -1,0 +1,12 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: ./docker_config/web.dockerfile
+    ports:
+      - 5735:5173
+    x-develop:
+      watch:
+        - path: web/
+          target: /app
+          action: sync
