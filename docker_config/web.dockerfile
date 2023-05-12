@@ -13,5 +13,5 @@ RUN --mount=type=cache,target=/cache/yarn \
 COPY web/ ./
 
 ENV VITE_HOST=0.0.0.0
-ENV VITE_PORT=80
+ENV VITE_PORT=8080
 CMD ["yarn", "dev"]
