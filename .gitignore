@@ -1,1 +1,5 @@
 .circleci/
+compose.yaml
+docker_config/web.dockerfile
+docker_config/web.yaml
+compose.yaml
