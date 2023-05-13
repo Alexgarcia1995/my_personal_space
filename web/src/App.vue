@@ -4,7 +4,7 @@
       <router-link to="/">Home</router-link>
       <router-link to="/carousel">Carousel</router-link>
     </div>
-    <div class="container">
+    <div class="container m-auto">
       <router-view></router-view>
     </div>
   </div>
