@@ -2,6 +2,7 @@
 
 const gulp = require("gulp");
 const sass = require('gulp-sass')(require('sass'));
+const cleanCss = require('gulp-clean-css');
 const postcss = require('gulp-postcss');
 
 function css() {
@@ -13,6 +14,7 @@ function css() {
             tailwindcss('./tailwind.config.js'),
             require('autoprefixer'),
         ]))
+        .pipe(cleanCss())
         .pipe(gulp.dest('./src/css'))
 }
 

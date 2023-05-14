@@ -1,23 +1,22 @@
 <template>
   <div class="content">
-    <div id="nav">
-      <router-link to="/">Home</router-link>
-      <router-link to="/carousel">Carousel</router-link>
-    </div>
+    <Theheader/>
     <div class="container m-auto">
       <router-view></router-view>
     </div>
+    <Thefooter/>
   </div>
-  
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<script>
+import Theheader from './components/TheHeader.vue'
+import Thefooter from './components/TheFooter.vue'
+
+export default {
+  name: 'App',
+  components: {
+    Theheader,
+    Thefooter
+  }
 }
-</style>
+</script>
