@@ -1,6 +1,9 @@
 <template>
   <div class="content">
-    <Theheader/>
+    <div class="bg-indigo-600">
+      <Theheader/>
+    </div>
+    <LanguageSwitch/>
     <Homecarousel/>
     <div class="container m-auto">
       <router-view></router-view>

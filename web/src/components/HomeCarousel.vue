@@ -1,13 +1,22 @@
 <template>
-    <Carousel v-bind="settings" :autoplay="2000" :wrap-around="true">
+  <div class="grid grid-cols-2">
+    <Carousel class="home-carousel" v-bind="settings" :wrap-around="true">
       <Slide v-for="(image) in images" :key="image.id">
-        <img :src="getImage(image.url)" />
+        <div class="flex flex-1 h-full carousel__item">
+          <img :src="getImage(image.url)" />
+        </div>
       </Slide>
-  
-      <template #addons>
-        <Pagination />
-      </template>
     </Carousel>
+    <Carousel class="home-carousel" v-bind="settings" :wrap-around="true">
+      <Slide v-for="(text) in texts" :key="text">
+        <div class="carousel__item">
+          <h2>{{ $t(translationPrefix + text + ".title") }}</h2>
+          <p>{{ $t(translationPrefix + text + ".text") }}</p>
+        </div>
+      </Slide>
+    </Carousel>
+  </div>
+    
   </template>
   
   <script>
@@ -23,15 +32,20 @@
       Navigation,
     },
     data: () => ({
-        images: [{id: 1,url:'image1.png'}, {id: 2,url:'image1.png'}, {id: 3,url:'image1.png'}],
+        translationPrefix: "home.carousel.",
+        images: [{id: 1,url:'html5-css3.jpg'}, {id: 2,url:'javascript.jpg'}, {id: 3,url:'vue.jpg'}],
+        texts: ["html5","js","vuejs","docker"],
         settings: {
             itemsToShow: 1,
-            snapAlign: 'center'
+            snapAlign: 'center',
+            mouseDrag: false,
+            touchDrag: false,
+            autoplay: "2000"
         }
     }),
     methods: {
         getImage(imagePath) {
-            return new URL(`../assets/images/carousel/${imagePath}`, import.meta.url).href
+          return new URL(`../assets/images/home/${imagePath}`, import.meta.url).href
         }
     }
   })

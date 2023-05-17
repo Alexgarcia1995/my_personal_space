@@ -1,0 +1,6 @@
+.home-carousel {
+    @apply flex;
+    .carousel__viewport {
+        @apply flex flex-1;
+    }
+}

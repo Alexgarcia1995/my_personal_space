@@ -1,0 +1,30 @@
+{
+    "home": {
+        "carousel": {
+            "html5": {
+                "title":"HTML5 & CSS3",
+                "text": "Test english text HTML 5 y CSS 3"
+            },
+            "js": {
+                "title":"JS",
+                "text": "Test english text Javascript"
+            },
+            "vuejs": {
+                "title":"Vue JS",
+                "text": "Test english text Vue JS"
+            },
+            "reactjs": {
+                "title":"React JS",
+                "text": "Test english text React JS"
+            },
+            "tailwind": {
+                "title":"Tailwind CSS",
+                "text": "Test english text Tailwind CSS"
+            },
+            "docker": {
+                "title":"Docker",
+                "text": "Test english text Docker"
+            }
+        }
+    }
+}

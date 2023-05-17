@@ -1,6 +1,9 @@
 <template>
-  <div class="bg-indigo-600">
-    <nav class=" container px-6 py-8 mx-auto md:flex md:justify-between md:items-center">
+  <div class="container m-auto">
+    <nav class="px-6 py-8 mx-auto md:flex md:justify-between md:items-center">
+      <div>
+        <router-link to="/" class="text-gray-100 uppercase">Alejandro Garcia Sanz</router-link>
+      </div>
       <div class="flex items-center justify-between">
         <div @click="toggleNav" class="flex md:hidden">
           <button class="text-gray-100 w-10 h-10 relative focus:outline-none">
