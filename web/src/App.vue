@@ -3,9 +3,7 @@
     <div class="bg-indigo-600">
       <Theheader/>
     </div>
-    <LanguageSwitch/>
-    <Homecarousel/>
-    <div class="container m-auto">
+    <div>
       <router-view></router-view>
     </div>
     <Thefooter/>
@@ -15,14 +13,12 @@
 <script>
 import Theheader from './components/TheHeader.vue'
 import Thefooter from './components/TheFooter.vue'
-import Homecarousel from './components/HomeCarousel.vue'
 
 export default {
   name: 'App',
   components: {
     Theheader,
-    Thefooter,
-    Homecarousel
+    Thefooter
   }
 }
 </script>
