@@ -3,7 +3,7 @@
 <template>
   <div>
     <div class="dropdown inline-block relative">
-      <button class="flex items-center gap-x-1" v-on:click="toggleMenu()">
+      <button class="flex items-center gap-x-1" v-on:click="toggleMenu()" v-on:clickout="showMenu = false">
         <img id="button-language" class="w-8 bg-white" :src="getLanguageFlag('es_flag.png')" />
         <svg class="fill-current w-6" :class="showMenu ? 'rotate-180' : 'rotate-0'" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
       </button>
@@ -18,6 +18,7 @@
 
 <script>
 import { defineComponent } from 'vue';
+import 'clickout-event';
 export default defineComponent({
   name: "LanguageSwitch",
   methods: {

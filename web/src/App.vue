@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <div class="bg-indigo-600">
+    <div class="nav">
       <Theheader/>
     </div>
     <div>

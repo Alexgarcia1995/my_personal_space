@@ -711,6 +711,11 @@ clean-css@4.2.3:
   dependencies:
     source-map "~0.6.0"
 
+clickout-event@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/clickout-event/-/clickout-event-1.1.2.tgz#1a7f98654cd46c8813fc0f72e00d2c01e378f751"
+  integrity sha512-oGb80mX872OcwV5Rfz6khuolsi3cJHLGHmJ+Tvw9w6J3MejH5StPfFma+Z3rPhNZ+vCXnAo+GLBl09bfxCLaSQ==
+
 cliui@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/cliui/-/cliui-3.2.0.tgz#120601537a916d29940f934da3b48d585a39213d"

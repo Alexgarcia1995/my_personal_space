@@ -1,29 +1,44 @@
 {
+    "navigation":{
+        "about-me": "Sobre Mi"
+    },
     "home": {
+        "header": {
+            "title": "Desarrollador Web",
+            "subtitle": "Creando contenido para hacer que Internet sea aún más grande"
+        },
         "carousel": {
             "html5": {
                 "title":"HTML5 & CSS3",
-                "text": "Prueba texto HTML 5 y CSS 3"
+                "text": "Maquetación con CSS, estructura y nomenclatura de etiquetas de HTML5"
             },
             "js": {
                 "title":"JS",
-                "text": "Prueba texto Javascript"
+                "text": "Creación y mantenimiento de funciones Javascript (ES5 y ES6) para pàginas webs"
             },
             "vuejs": {
                 "title":"Vue JS",
-                "text": "Prueba texto Vue JS"
+                "text": "Creación de proyectos simples en Vue JS (autodidacta)"
             },
             "reactjs": {
                 "title":"React JS",
-                "text": "Prueba texto React JS"
+                "text": "Creación de proyectos simples en React JS (autodidacta)"
             },
             "tailwind": {
                 "title":"Tailwind CSS",
-                "text": "Prueba texto Tailwind CSS"
+                "text": "Maquetación de elementos utilizando la libreria Tailwind CSS"
             },
             "docker": {
                 "title":"Docker",
-                "text": "Prueba texto Docker"
+                "text": "Instalación y montaje de volumenes, contenedores e imagenes en Docker"
+            },
+            "magento": {
+                "title":"Magento",
+                "text": "Gestión, mantenimiento y creación de modulos para webs creadas con Magento 1 y Magento 2."
+            },
+            "mysql": {
+                "title":"MySQL",
+                "text": "Gestión de base de datos de las pàginas web creadas con Magento"
             }
         }
     }

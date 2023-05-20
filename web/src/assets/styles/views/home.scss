@@ -1,3 +1,7 @@
+@import '../organisms/waves';
+@import '../organisms/typing';
+@import '../organisms/slider';
+
 .home-carousel {
     @apply flex;
     .carousel__viewport {

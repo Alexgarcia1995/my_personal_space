@@ -4,3 +4,6 @@
 @import './organisms/header';
 @import './organisms/footer';
 @import './views/home';
+.content {
+    background: linear-gradient(60deg, rgb(84, 58, 183) 0%, rgb(0, 172, 193) 100%);
+}

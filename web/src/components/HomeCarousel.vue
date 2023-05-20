@@ -1,4 +1,6 @@
 <template>
+  <div>
+    <div class="text-center text-xl py-8 lg:text-3xl">Working expierence</div>
     <swiper
       :effect="'coverflow'"
       :grabCursor="true"
@@ -16,18 +18,17 @@
       class="mySwiper"
     >
       <swiper-slide v-for="(sliderContent) in sliderContents" :key="sliderContent.id">
-          <div class="slider__item">
-              <div class="slider__image">
-                  <img :src="getImage(sliderContent.url)" />
-              </div>
-            <div class="slider__text">
-              <h2>{{ $t(translationPrefix + sliderContent.translation + ".title") }}</h2>
-              <p>{{ $t(translationPrefix + sliderContent.translation + ".text") }}</p>
-            </div>
+          <div class="slider__image">
+            <img :src="getImage(sliderContent.url)" />
+          </div>
+          <div class="slider__text p-8">
+            <h2 class="uppercase text-center bold">{{ $t(translationPrefix + sliderContent.translation + ".title") }}</h2>
+            <p class="text-center">{{ $t(translationPrefix + sliderContent.translation + ".text") }}</p>
           </div>
       </swiper-slide>
     </swiper>
-  </template>
+  </div>
+</template>
   <script>
   // Import Swiper Vue.js components
   import { defineComponent } from 'vue';
@@ -35,7 +36,6 @@
   
   // Import Swiper styles
   import "swiper/css";
-  
   import "swiper/css/effect-coverflow";
   import "swiper/css/pagination";
   
@@ -56,9 +56,14 @@
     data: () => ({
         translationPrefix: "home.carousel.",
         sliderContents: [
-            {id: 1, translation: "html5", url:'html5-css3.jpg'}, 
-            {id: 2, translation: "js", url:'javascript.jpg'}, 
-            {id: 3, translation: "vuejs", url:'vue.jpg'}
+            {id: 0, translation: "magento", url:'magento.png'}, 
+            {id: 1, translation: "html5", url:'html5.png'}, 
+            {id: 2, translation: "js", url:'javascript.png'}, 
+            {id: 3, translation: "vuejs", url:'vuejs.png'},
+            {id: 4, translation: "docker", url:'docker.png'}, 
+            {id: 5, translation: "reactjs", url:'react.png'}, 
+            {id: 6, translation: "tailwind", url:'tailwind.png'},
+            {id: 7, translation: "mysql", url:'mysql.png'},
         ],
     }),
     methods: {
@@ -68,22 +73,3 @@
     },
   });
   </script>
-  <style scoped> 
-  .swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-  }
-  </style>
