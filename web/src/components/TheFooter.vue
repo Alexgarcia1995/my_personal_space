@@ -24,14 +24,18 @@
   <div class="p-4 text-center bg-black">
     © {{ currentYear }} Copyright
   </div>
+  <BackToTop />
 </footer>
 </template>
 
 <script>
 import LanguageSwitch from './LanguageSwitch.vue';
+import BackToTop from './BackToTop.vue';
+
 export default {
   components: {
-    LanguageSwitch
+    LanguageSwitch,
+    BackToTop
   },
   data() {
     return {

@@ -7,6 +7,10 @@
             "title": "Web Developer",
             "subtitle": "Creating content to make internet even bigger"
         },
+        "about-web": {
+            "title": "About this Website",
+            "text":"I have created this website using Vite, VueJS, Gulp + Sass and Docker"
+        },
         "carousel": {
             "experience":"Experience in programming languages",
             "html5":{
@@ -53,6 +57,31 @@
             "2nd-paragraph":"I was born and raised in Olleria, a small town south of Valencia that is famous for its glass.",
             "3rd-paragraph":"I characterize myself by always trying to have a good mood and treating others with respect.",
             "4th-paragraph":"I am able to adapt to each situation. I have always tried to be as productive as possible and I am a quick learner."
+        },
+        "experience": {
+            "title":"Professional Experience",
+            "onestic": {
+                "title": "Onestic Web Developer | Alcoi ",
+                "text": "Design, development and maintenance of websites specialized in electronic commerce with Magento 1 and Magento 2."
+            },
+            "panaderia": {
+                "title": "Bakery or pastry shop assistant | Olleria ",
+                "text": "Marketing and sale of bakery and pastry products in the family business"
+            }
+        },
+        "studies": {
+            "title":"Education",
+            "ies-vermellar":{
+                "text":"IES Vermellar: Compulsory Secondary Education (ESO)"
+            },
+            "ies-stacio":{
+                "title":"IES L'Estacio",
+                "text-1":"Medium degree of microcomputer systems and networks (SMX)",
+                "text-2":"Higher degree in Web Application Development (DAW)"
+            }
+        },
+        "contact": {
+            "text":"If you need more information about me or just want to contact me, click on the mail icon"
         }
     }
 }

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="text-center text-xl py-8 lg:text-3xl">{{ $t("home.carousel.experience") }}</div>
+    <h2 class="font-bold text-center text-3xl py-8 lg:text-5xl lg:leading-normal">{{ $t("home.carousel.experience") }}</h2>
     <swiper
       :effect="'coverflow'"
       :grabCursor="true"
