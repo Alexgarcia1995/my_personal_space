@@ -4,7 +4,7 @@ services:
       context: .
       dockerfile: ./docker_config/web.dockerfile
     ports:
-      - 8080:8080
+      - 80:80
     x-develop:
       watch:
         - path: web/
