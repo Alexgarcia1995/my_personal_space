@@ -11,9 +11,6 @@
           <img :src="getImage('github.png')" />
         </a>
       </div>
-      <div id="language-switcher" class="w-24 ml-auto my-auto">
-        <LanguageSwitch/>
-      </div>
     </div>
   </div>
 
@@ -25,12 +22,10 @@
 </template>
 
 <script>
-import LanguageSwitch from './LanguageSwitch.vue';
 import BackToTop from './BackToTop.vue';
 
 export default {
   components: {
-    LanguageSwitch,
     BackToTop
   },
   methods: {

@@ -1,8 +1,8 @@
 <template>
   <div class="container m-auto">
-    <nav class="px-2 py-8 mx-auto md:px-6 md:flex md:justify-between md:items-center">
-      <div class="flex items-center flex-row-reverse justify-between md:flex-row">
-        <div class="m-auto md:0">
+    <nav class="px-2 py-8 mx-auto flex justify-between items-center md:px-6">
+      <div class="flex items-center flex-row-reverse justify-between grow md:flex-row">
+        <div class="m-auto md:m-0">
           <router-link to="/" class="text-gray-100 uppercase">Alejandro Garcia Sanz</router-link>
         </div>
         <div @click="toggleNav" class="flex md:hidden">
@@ -19,7 +19,7 @@
 
       <div
         :class="showMenu ? 'flex' : 'hidden'"
-        class="flex-col px-2 mt-4 space-y-4 md:flex md:px-0 md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
+        class="flex-col px-2 mt-4 space-y-4 md:flex md:px-0 md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 md:ml-auto"
       >
         <div>
           <router-link to="/" class="text-gray-100 hover:text-indigo-400">Home</router-link>
@@ -28,12 +28,19 @@
           <router-link to="/about-me" class="text-gray-100 hover:text-indigo-400">{{ $t("navigation.about-me") }}</router-link>
         </div>
       </div>
+      <div id="language-switcher" class="w-24 ml-auto my-auto md:ml-4">
+        <LanguageSwitch/>
+      </div>
     </nav>
   </div>
 </template>
 <script>
 import { ref } from 'vue';
+import LanguageSwitch from './LanguageSwitch.vue';
 export default {
+  components: {
+    LanguageSwitch
+  },
   setup() {
     let showMenu = ref(false);
     const toggleNav = () => (showMenu.value = !showMenu.value);
