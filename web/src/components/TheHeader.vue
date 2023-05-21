@@ -1,6 +1,6 @@
 <template>
   <div class="container m-auto">
-    <nav class="px-2 py-8 mx-auto flex justify-between items-center md:px-6">
+    <nav class="px-2 pt-8 mx-auto flex justify-between items-center md:px-6">
       <div class="flex items-center flex-row-reverse justify-between grow md:flex-row">
         <div class="m-auto md:m-0">
           <router-link to="/" class="text-gray-100 uppercase">Alejandro Garcia Sanz</router-link>
