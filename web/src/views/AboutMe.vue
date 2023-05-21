@@ -28,9 +28,9 @@
           <div class="absolute top-4 p-4 z-10 lg:top-[40%]">
             {{ $t("about.studies.ies-vermellar.text") }}
           </div>
-          <div class="h-full" style="filter: brightness(0.5);"><img class="h-full" :src="getImage('ies_vermellar.jpg')"></div>
+          <div class="lg:h-full" style="filter: brightness(0.5);"><img class="lg:h-full" :src="getImage('ies_vermellar.jpg')"></div>
         </div>
-        <div class="flex-1 h-full relative">
+        <div class="flex-1 relative">
           <div class="absolute top-4 p-4 z-10 lg:top-[40%]">
             <p>{{ $t("about.studies.ies-estacio.title") }}</p>
             <ul>
