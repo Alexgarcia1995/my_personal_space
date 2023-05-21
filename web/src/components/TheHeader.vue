@@ -17,10 +17,7 @@
         </div>
       </div>
 
-      <div
-        :class="showMenu ? 'flex' : 'hidden'"
-        class="flex-col px-2 mt-4 space-y-4 md:flex md:px-0 md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 md:ml-auto"
-      >
+      <div class="hidden md:flex md:px-0 md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 md:ml-auto">
         <div>
           <router-link to="/" class="text-gray-100 hover:text-indigo-400">Home</router-link>
         </div>
@@ -32,6 +29,16 @@
         <LanguageSwitch/>
       </div>
     </nav>
+    <div :class="showMenu ? 'flex' : 'hidden'"
+        class="flex-col px-2 mt-4 space-y-4 md:hidden"
+      >
+        <div>
+          <router-link to="/" class="text-gray-100 hover:text-indigo-400">Home</router-link>
+        </div>
+        <div>
+          <router-link to="/about-me" class="text-gray-100 hover:text-indigo-400">{{ $t("navigation.about-me") }}</router-link>
+        </div>
+      </div>
   </div>
 </template>
 <script>
