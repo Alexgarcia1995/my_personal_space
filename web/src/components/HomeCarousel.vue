@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="text-center text-xl py-8 lg:text-3xl">Working expierence</div>
+    <div class="text-center text-xl py-8 lg:text-3xl">{{ $t("home.carousel.experience") }}</div>
     <swiper
       :effect="'coverflow'"
       :grabCursor="true"
@@ -57,13 +57,14 @@
         translationPrefix: "home.carousel.",
         sliderContents: [
             {id: 0, translation: "magento", url:'magento.png'}, 
-            {id: 1, translation: "html5", url:'html5.png'}, 
-            {id: 2, translation: "js", url:'javascript.png'}, 
-            {id: 3, translation: "vuejs", url:'vuejs.png'},
-            {id: 4, translation: "docker", url:'docker.png'}, 
-            {id: 5, translation: "reactjs", url:'react.png'}, 
-            {id: 6, translation: "tailwind", url:'tailwind.png'},
-            {id: 7, translation: "mysql", url:'mysql.png'},
+            {id: 1, translation: "html5", url:'html5.png'},
+            {id: 2, translation: "gulp-sass", url:'gulp-sass.png'}, 
+            {id: 3, translation: "js", url:'javascript.png'},
+            {id: 4, translation: "vuejs", url:'vuejs.png'},
+            {id: 5, translation: "docker", url:'docker.png'}, 
+            {id: 6, translation: "reactjs", url:'react.png'}, 
+            {id: 7, translation: "tailwind", url:'tailwind.png'},
+            {id: 8, translation: "mysql", url:'mysql.png'},
         ],
     }),
     methods: {

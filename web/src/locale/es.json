@@ -8,9 +8,14 @@
             "subtitle": "Creando contenido para hacer que Internet sea aún más grande"
         },
         "carousel": {
+            "experience":"Experiencia en lenguajes de programación",
             "html5": {
                 "title":"HTML5 & CSS3",
                 "text": "Maquetación con CSS, estructura y nomenclatura de etiquetas de HTML5"
+            },
+            "gulp-sass": {
+                "title":"Gulp & SASS",
+                "text": "Configuración para compilación de elementos SCSS con Gulp y SASS"
             },
             "js": {
                 "title":"JS",
@@ -40,6 +45,14 @@
                 "title":"MySQL",
                 "text": "Gestión de base de datos de las pàginas web creadas con Magento"
             }
+        }
+    },
+    "about": {
+        "header": {
+            "1st-paragraph":"Mi nombre es Alejandro, soy programador web especializado en Front-end, aunque tambien se defenderme en backend y base de datos.",
+            "2nd-paragraph":"He nacido y crecido en Olleria, un pueblecito pequeño al sur de Valencia que es famoso por sus vidrios.",
+            "3rd-paragraph":"Me caracterizo por intentar tener siempre buen humor y tratar con respeto a los demas.",
+            "4th-paragraph":"Soy capaz de adaptarme a cada situación. Siempre he intentado sacar mi máxima productividad y tengo capacidad de aprender rápidamente."
         }
     }
 }

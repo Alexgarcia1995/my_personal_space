@@ -8,9 +8,14 @@
             "subtitle": "Creating content to make internet even bigger"
         },
         "carousel": {
+            "experience":"Experience in programming languages",
             "html5":{
                 "title":"HTML5 & CSS3",
                 "text": "Layout with CSS, structure and HTML5 tag naming"
+            },
+            "gulp-sass": {
+                "title":"Gulp & SASS",
+                "text": "Settings for compiling SCSS elements with Gulp and SASS"
             },
             "js": {
                 "title":"JS",
@@ -40,6 +45,14 @@
                 "title":"MySQL",
                 "text": "Database management for web pages created with Magento"
             }
+        }
+    },
+    "about": {
+        "header": {
+            "1st-paragraph":"My name is Alejandro, I am a web programmer specialized in Front-end, although I also know how to defend myself in backend and database.",
+            "2nd-paragraph":"I was born and raised in Olleria, a small town south of Valencia that is famous for its glass.",
+            "3rd-paragraph":"I characterize myself by always trying to have a good mood and treating others with respect.",
+            "4th-paragraph":"I am able to adapt to each situation. I have always tried to be as productive as possible and I am a quick learner."
         }
     }
 }
