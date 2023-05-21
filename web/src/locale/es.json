@@ -1,0 +1,87 @@
+{
+    "navigation":{
+        "about-me": "Sobre Mi"
+    },
+    "home": {
+        "header": {
+            "title": "Desarrollador Web",
+            "subtitle": "Creando contenido para hacer que Internet sea aún más grande"
+        },
+        "about-web": {
+            "title": "Sobre esta Web",
+            "text":"Esta web la he creado utilizando Vite, VueJS, Gulp + Sass y Docker"
+        },
+        "carousel": {
+            "experience":"Experiencia en lenguajes de programación",
+            "html5": {
+                "title":"HTML5 & CSS3",
+                "text": "Maquetación con CSS, estructura y nomenclatura de etiquetas de HTML5"
+            },
+            "gulp-sass": {
+                "title":"Gulp & SASS",
+                "text": "Configuración para compilación de elementos SCSS con Gulp y SASS"
+            },
+            "js": {
+                "title":"JS",
+                "text": "Creación y mantenimiento de funciones Javascript (ES5 y ES6) para pàginas webs"
+            },
+            "vuejs": {
+                "title":"Vue JS",
+                "text": "Creación de proyectos simples en Vue JS (autodidacta)"
+            },
+            "reactjs": {
+                "title":"React JS",
+                "text": "Creación de proyectos simples en React JS (autodidacta)"
+            },
+            "tailwind": {
+                "title":"Tailwind CSS",
+                "text": "Maquetación de elementos utilizando la libreria Tailwind CSS"
+            },
+            "docker": {
+                "title":"Docker",
+                "text": "Instalación y montaje de volumenes, contenedores e imagenes en Docker"
+            },
+            "magento": {
+                "title":"Magento",
+                "text": "Gestión, mantenimiento y creación de modulos para webs creadas con Magento 1 y Magento 2."
+            },
+            "mysql": {
+                "title":"MySQL",
+                "text": "Gestión de base de datos de las pàginas web creadas con Magento"
+            }
+        }
+    },
+    "about": {
+        "header": {
+            "1st-paragraph":"Mi nombre es Alejandro, soy programador web especializado en Front-end, aunque tambien se defenderme en backend y base de datos.",
+            "2nd-paragraph":"He nacido y crecido en Olleria, un pueblecito pequeño al sur de Valencia que es famoso por sus vidrios.",
+            "3rd-paragraph":"Me caracterizo por intentar tener siempre buen humor y tratar con respeto a los demas.",
+            "4th-paragraph":"Soy capaz de adaptarme a cada situación. Siempre he intentado sacar mi máxima productividad y tengo capacidad de aprender rápidamente."
+        },
+        "experience": {
+            "title":"Profesional Experience Experiencia",
+            "onestic": {
+                "title": "Programador web Onestic | Alcoi ",
+                "text": "Diseño, desarrollo y mantenimiento de sitios web especializados en el e-commerce con Magento 1 y Magento 2."
+            },
+            "panaderia": {
+                "title": "Dependiente de panadería o pastelería | Olleria ",
+                "text": "Comercialización y venta de productos de panadería y pastelería en el negocio familiar"
+            }
+        },
+        "studies": {
+            "title":"Estudios",
+            "ies-vermellar":{
+                "text":"IES Vermellar: Educacion secundaria Obligatoria (ESO)"
+            },
+            "ies-estacio":{
+                "title":"IES L'Estacio",
+                "text-1":"Grado medio de sistema microinformaticos y redes (SMX)",
+                "text-2":"Grado superior en desarrollo de Aplicaciones Web (DAW)"
+            }
+        },
+        "contact": {
+            "text":"Si necesitas mas información sobre mi o deseas simplemente ponerte en contacto conmigo, haz click sobre el icono de mail"
+        }
+    }
+}

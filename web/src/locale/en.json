@@ -1,0 +1,87 @@
+{
+    "navigation":{
+        "about-me": "About Me"
+    },
+    "home": {
+        "header": {
+            "title": "Web Developer",
+            "subtitle": "Creating content to make internet even bigger"
+        },
+        "about-web": {
+            "title": "About this Website",
+            "text":"I have created this website using Vite, VueJS, Gulp + Sass and Docker"
+        },
+        "carousel": {
+            "experience":"Experience in programming languages",
+            "html5":{
+                "title":"HTML5 & CSS3",
+                "text": "Layout with CSS, structure and HTML5 tag naming"
+            },
+            "gulp-sass": {
+                "title":"Gulp & SASS",
+                "text": "Settings for compiling SCSS elements with Gulp and SASS"
+            },
+            "js": {
+                "title":"JS",
+                "text": "Creation and maintenance of Javascript functions (ES5 and ES6) for web pages"
+            },
+            "vuejs": {
+                "title":"Vue JS",
+                "text": "Creating simple projects in Vue JS (self-taught)"
+            },
+            "reactjs": {
+                "title":"ReactJS",
+                "text": "Creating simple projects in React JS (self-taught)"
+            },
+            "tailwind": {
+                "title":"Tailwind CSS",
+                "text": "Elements layout using the Tailwind CSS library"
+            },
+            "docker": {
+                "title":"Docker",
+                "text": "Installing and mounting volumes, containers and images in Docker"
+            },
+            "magento": {
+                "title":"Magento",
+                "text": "Management, maintenance and creation of modules for websites created with Magento 1 and Magento 2"
+            },
+            "mysql": {
+                "title":"MySQL",
+                "text": "Database management for web pages created with Magento"
+            }
+        }
+    },
+    "about": {
+        "header": {
+            "1st-paragraph":"My name is Alejandro, I am a web programmer specialized in Front-end, although I also know how to defend myself in backend and database.",
+            "2nd-paragraph":"I was born and raised in Olleria, a small town south of Valencia that is famous for its glass.",
+            "3rd-paragraph":"I characterize myself by always trying to have a good mood and treating others with respect.",
+            "4th-paragraph":"I am able to adapt to each situation. I have always tried to be as productive as possible and I am a quick learner."
+        },
+        "experience": {
+            "title":"Professional Experience",
+            "onestic": {
+                "title": "Onestic Web Developer | Alcoi ",
+                "text": "Design, development and maintenance of websites specialized in electronic commerce with Magento 1 and Magento 2."
+            },
+            "panaderia": {
+                "title": "Bakery or pastry shop assistant | Olleria ",
+                "text": "Marketing and sale of bakery and pastry products in the family business"
+            }
+        },
+        "studies": {
+            "title":"Education",
+            "ies-vermellar":{
+                "text":"IES Vermellar: Compulsory Secondary Education (ESO)"
+            },
+            "ies-stacio":{
+                "title":"IES L'Estacio",
+                "text-1":"Medium degree of microcomputer systems and networks (SMX)",
+                "text-2":"Higher degree in Web Application Development (DAW)"
+            }
+        },
+        "contact": {
+            "text":"If you need more information about me or just want to contact me, click on the mail icon"
+        }
+    }
+}
