@@ -4,10 +4,10 @@
   <div class="container px-6 pt-6 m-auto">
     <div class="mb-6 flex justify-center">
       <div class="flex flex-row gap-x-4">
-        <a href="https://www.linkedin.com/in/alejandro-garcia-sanz-10103b144/" type="button"> 
+        <a href="https://www.linkedin.com/in/alejandro-garcia-sanz-10103b144/"> 
           <img :src="getImage('linkedin.png')" />
         </a>
-        <a href="https://github.com/Alexgarcia1995/" type="button"> 
+        <a href="https://github.com/Alexgarcia1995/"> 
           <img :src="getImage('github.png')" />
         </a>
       </div>

@@ -23,12 +23,12 @@
     
     <div class="text-white text-xl">
       <h2 class="font-bold text-center text-3xl pb-4 lg:text-5xl lg:leading-normal lg:pb-8">{{ $t("about.studies.title") }}</h2>
-      <div class="flex flex-col lg:flex-row">
-        <div class="flex-1 h-auto relative pb-4 lg:pb-0 lg:pr-4">
+      <div class="flex flex-col xl:flex-row">
+        <div class="flex-1 h-auto relative pb-4 xl:pb-0 xl:pr-4">
           <div class="absolute top-4 p-4 z-10 lg:top-[40%]">
             {{ $t("about.studies.ies-vermellar.text") }}
           </div>
-          <div class="lg:h-full" style="filter: brightness(0.5);"><img class="lg:h-full" :src="getImage('ies_vermellar.jpg')"></div>
+          <div class="xl:h-full" style="filter: brightness(0.5);"><img class="xl:h-full" :src="getImage('ies_vermellar.jpg')"></div>
         </div>
         <div class="flex-1 relative">
           <div class="absolute top-4 p-4 z-10 lg:top-[40%]">
