@@ -2,9 +2,9 @@
     <div>
       <header class="header">
         <div class="flex flex-wrap relative flex-col lg:flex-row">
-          <div class="text-center text-white p-8 lg:absolute lg:text-left lg:top-1/3 lg:left-44 lg:p-0 lg:pl-2">
+          <div class="text-center text-white p-8 lg:absolute lg:top-0 lg:left-20 lg:p-0 lg:pl-2 xl:text-left xl:top-1/3 xl:left-44 ">
             <strong class="typing-text text-2xl lg:text-5xl lg:leading-normal">{{ $t("home.header.title") }}</strong>
-            <p class="text-xl lg:text-3xl">{{ $t("home.header.subtitle") }}</p>
+            <p class="text-xl lg:text-3xl xl:w-[70%] 2xl:w-auto">{{ $t("home.header.subtitle") }}</p>
           </div>
           <div class="lg:ml-auto">
             <img class="w-full lg:w-3/4 lg:ml-auto" :src="getImage('background-header.png')">
